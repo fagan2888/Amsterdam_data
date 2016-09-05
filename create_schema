@@ -1,0 +1,24 @@
+CREATE SCHEMA raw; 
+
+CREATE TABLE raw.Liander_table (
+        meetverantwoordelijke VARCHAR,
+        netbeheerder VARCHAR,
+        netgebied VARCHAR,
+        straatnaam VARCHAR,
+        postcode_van VARCHAR,
+        postcode_tot VARCHAR,
+        woonplaats VARCHAR,
+        landcode VARCHAR,
+        productsoort VARCHAR,
+        verbruikssegment VARCHAR,
+        aantal_aansluitingen VARCHAR,
+        "%%leveringsrichting" VARCHAR,
+        "%%fysieke_status" VARCHAR,
+        "%%defintieve_aansl_(nrm)" VARCHAR,
+        "%%soort_aansluiting" VARCHAR,
+        soort_aansluiting_naam VARCHAR,
+        sjv VARCHAR,
+        "%%sjv_laag_tarief" VARCHAR,
+        "%%slimme_meter" VARCHAR,
+        gemiddeld_aantal_telwielen VARCHAR
+);

@@ -1,6 +1,6 @@
 # Data folder
 ~/data/*
-
+fetch_data.sh
 
 # Windows image file caches
 Thumbs.db
