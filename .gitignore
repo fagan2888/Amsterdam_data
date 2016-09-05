@@ -1,10 +1,13 @@
 # Data folder
 ~/data/*
-fetch_data.sh
+
 
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+fetch_data.sh
+*.sh
+
 
 # Folder config file
 Desktop.ini
